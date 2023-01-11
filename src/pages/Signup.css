@@ -1,0 +1,232 @@
+
+.signup{
+  background: url('https://images.pexels.com/photos/4062563/pexels-photo-4062563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.signup-nav{
+  text-align: center;
+  background: rgba(53,213,208, 0.7);
+  margin-top: 10%;
+  margin-bottom: 3%;
+  width:100%;
+  font-weight: bold;
+}
+
+.signup-nav img{
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.signup-content{
+  background: rgba(53,213,208, 0.6);
+  width: 45em;
+  height: 55em;
+  margin: 0 auto;
+  margin-top: 3%;
+  border-radius: 7px;
+  padding: 10px 10px 0 10px;
+}
+
+.signup-header{
+  text-align: justify;
+  margin-left: 5%;
+}
+
+.signup-create{
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-weight: bold;
+} 
+
+.signup-up{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  margin-left: 4.5%;
+  margin-right: 3%;
+}
+
+.signup-inputs {
+  position: relative;
+  width: 100%;
+}
+
+.signup-inputs-2 {
+  position: relative;
+  width: 100%;
+}
+
+.signup-inputs input{
+  width: 95%;
+  padding: 18px 10px 15px 10px;
+  border-radius: 3px;
+  border: none;
+  color: #052137;
+  font-size: 1em;
+  transition: 0.5s;
+  background-color: #d9d9d9;
+}
+
+input[type=date]{
+  width: 60%;
+  padding: 18px 10px 15px 10px;
+  border-radius: 3px;
+  border: none;
+  color: #052137;
+  font-size: 1em;
+  transition: 0.5s;
+  background-color: #d9d9d9;
+}
+
+input[type=number]{
+  width: 28.8%;
+  padding: 18px 10px 15px 10px;
+  margin-left: 20px;
+  border-radius: 3px;
+  border: none;
+  color: #052137;
+  font-size: 1em;
+  transition: 0.5s;
+  background-color: #d9d9d9;
+}
+
+.signup-inputs span {
+  position: absolute;
+  padding: 10px;
+  left: 5px;
+  top: 4px;
+  bottom: 3px;
+  pointer-events: none;
+  font-size: 1.3em;
+  color: #052137;
+  transition: 0.4s;
+}
+
+.signup-inputs-2 .bday-1{
+  position: absolute;
+  left: 4px;
+  padding: 10px;
+  top: 5px;
+  bottom: 3px;
+  pointer-events: none;
+  font-size: 1.3em;
+  color: #052137;
+  transition: 0.4s;
+  padding-right: 10000px;
+}
+
+.signup-inputs-2 .age-1{
+  position: absolute;
+  padding: 10px;
+  left: 460px;
+  top: 3px;
+  bottom: 3px;
+  pointer-events: none;
+  font-size: 1.3em;
+  color: #052137;
+  transition: 0.4s;
+  padding-right: 10000px;
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+} 
+
+.signup-inputs input:valid~span, .signup-inputs input:focus~span{
+  color: #4a4f54;
+  transform: translateX(8px) translateY(-7px);
+  font-size: 0.70em;
+  padding: 0.2px 1px;
+}
+
+.signup-inputs-2 input:valid~.age-1, .signup-inputs-2 input:focus~.age-1{
+  color: #4a4f54;
+  transform: translateX(8px) translateY(-7px);
+  font-size: 0.70em;
+  padding: 0.2px 1px;
+}
+
+.signup-inputs-2 input:valid~.bday-1, .signup-inputs-2 input:focus~.bday-1{
+  color: #4a4f54;
+  transform: translateX(8px) translateY(-7px);
+  font-size: 0.70em;
+  padding: 0.2px 1px;
+}
+
+.eye{
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  font-size: 35px;
+  color: #a5a5a5;
+}
+
+.eye:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.eye:active {
+  color: black;
+  cursor: pointer;
+}
+
+.signup-agreement{
+  text-align: justify;
+  font-size: 15px;
+  margin-top: 1%;
+  margin-left: 8%;
+  margin-right: 11%;
+  letter-spacing: 1px;
+}
+
+.signup-button{
+  background-color: #171f25;
+  border: 0;
+  color: #fff;
+  padding: 15px 1px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 23px;
+  cursor: pointer;
+  transition: all 300ms;
+  text-align: center;
+  width: 10em;
+  text-decoration: none;
+  margin-left: 31%;
+}
+
+.signup-button:hover{
+  transform: scale(1.04);
+  background: #2a3238;
+}
+
+.q a{
+  text-decoration: underline;
+  color: #000000;
+}
+
+.q a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color:#D9D9D9;
+}
+
+.q{
+  text-align: center;
+  margin-top: 25px;
+}
